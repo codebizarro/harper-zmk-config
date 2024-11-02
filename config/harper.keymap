@@ -26,7 +26,7 @@
 &kp TAB    &kp A              &kp S      &kp D     &kp F     &kp G             &kp H          &kp J            &kp K      &kp L   &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z              &kp X      &kp C     &kp V     &kp B             &kp LS(LG(T))  &kp PRINTSCREEN  &kp N      &kp M   &kp COMMA  &kp DOT
 &kp FSLH   &kp RIGHT_BRACKET  &kp LCTRL  &kp LGUI  &kp LALT  &mo ADJ  &mo RSE  &mo LWR        &kp SPACE        &kp ENTER  &mo 1   &mo 2      &mo 3             &kp RALT
-                                                                               &kp RGUI                                                                        &kp RCTRL
+                                                                               &kp K_APP                                                                       &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP>, <&inc_dec_kp RIGHT LEFT>;
