@@ -37,7 +37,7 @@
 &kp GRAVE  &kp N1     &kp N2       &kp N3     &kp N4     &kp N5                &kp N6     &kp N7    &kp N8           &kp N9    &kp N0          &kp F12
 &kp TAB    &kp EXCL   &kp AT       &kp HASH   &kp DLLR   &kp PRCNT             &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR        &kp PIPE
 &kp LSHFT  &kp EQUAL  &kp KP_PLUS  &kp MINUS  &kp UNDER  &kp LA(LEFT)          &trans     &trans    &kp LBKT         &kp RBKT  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&kp BSLH   &trans     &kp LCTRL    &trans     &trans     &kp LEFT_ALT  &trans  &trans     &trans    &trans           &trans    &trans          &kp RIGHT_ALT    &trans
+&kp BSLH   &kp PIPE   &kp LCTRL    &trans     &trans     &kp LEFT_ALT  &trans  &trans     &trans    &trans           &trans    &trans          &kp RIGHT_ALT    &trans
                                                                                &trans                                                                           &kp RCTRL
             >;
 
@@ -63,12 +63,12 @@
 
         adjust_layer {
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0                     &bt BT_SEL 1                       &bt BT_SEL 2                      &out OUT_BLE                     &out OUT_USB                              &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRD                  &rgb_ug RGB_BRI                    &rgb_ug RGB_SPD                   &rgb_ug RGB_SPI                  &rgb_ug RGB_EFF                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(218,100,50)  &rgb_ug RGB_COLOR_HSB(120,97,50)  &rgb_ug RGB_COLOR_HSB(60,0,100)  &rgb_ug RGB_COLOR_HSB(64,100,52)          &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans                           &trans                             &trans                            &ind IND_ON                      &ind BAT_ST                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans                           &trans                             &trans                            &trans                           &trans                            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                                                                                                                                                                  &trans                                          &trans
+&bt BT_CLR       &bt BT_SEL 0                     &bt BT_SEL 1                       &bt BT_SEL 2                      &out OUT_BLE                     &out OUT_USB                              &trans  &trans  &trans               &trans  &trans  &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRD                  &rgb_ug RGB_BRI                    &rgb_ug RGB_SPD                   &rgb_ug RGB_SPI                  &rgb_ug RGB_EFF                           &trans  &trans  &kp LC(LS(LA(INS)))  &trans  &trans  &trans
+&trans           &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(218,100,50)  &rgb_ug RGB_COLOR_HSB(120,97,50)  &rgb_ug RGB_COLOR_HSB(60,0,100)  &rgb_ug RGB_COLOR_HSB(64,100,52)          &trans  &trans  &trans               &trans  &trans  &trans
+&trans           &trans                           &trans                             &trans                            &ind IND_ON                      &ind BAT_ST                               &trans  &trans  &trans               &trans  &trans  &trans
+&trans           &trans                           &trans                             &trans                            &trans                           &trans                            &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans
+                                                                                                                                                                                                  &trans                                                       &trans
             >;
         };
     };
