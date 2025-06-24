@@ -33,6 +33,76 @@
 &mt { quick_tap_ms = <200>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        f1 {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+
+        f2 {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <14 2>;
+            layers = <0>;
+        };
+
+        f3 {
+            bindings = <&kp HASH>;
+            key-positions = <15 3>;
+            layers = <0>;
+        };
+
+        f4 {
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+            layers = <0>;
+        };
+
+        f5 {
+            bindings = <&kp PERCENT>;
+            key-positions = <17 5>;
+            layers = <0>;
+        };
+
+        f6 {
+            bindings = <&kp CARET>;
+            key-positions = <18 6>;
+            layers = <0>;
+        };
+
+        f7 {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <19 7>;
+            layers = <0>;
+        };
+
+        f8 {
+            bindings = <&kp ASTERISK>;
+            key-positions = <20 8>;
+            layers = <0>;
+        };
+
+        f9 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <21 9>;
+            layers = <0>;
+        };
+
+        f10 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <22 10>;
+            layers = <0>;
+        };
+
+        f11 {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <23 11>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
