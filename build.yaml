@@ -2,7 +2,3 @@ include:
   - board: harper_left
     snippet: studio-rpc-usb-uart
   - board: harper_right
-  - board: harper_left
-    shield: settings_reset
-  - board: harper_right
-    shield: settings_reset
