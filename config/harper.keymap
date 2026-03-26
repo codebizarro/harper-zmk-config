@@ -49,7 +49,7 @@
         };
 
         ctrl_to_shift {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&win_r>;
             key-positions = <50 36>;
             layers = <0>;
         };
@@ -60,58 +60,77 @@
         };
 
         w1 {
-            bindings = <&none>;
+            bindings = <&kp EXCL>;
             key-positions = <1 14>;
         };
 
         e2 {
-            bindings = <&none>;
+            bindings = <&kp AT>;
             key-positions = <2 15>;
         };
 
         r3 {
-            bindings = <&none>;
+            bindings = <&kp HASH>;
             key-positions = <3 16>;
         };
 
         t4 {
-            bindings = <&none>;
+            bindings = <&kp PERCENT>;
             key-positions = <4 17>;
         };
 
         t5 {
-            bindings = <&none>;
+            bindings = <&kp PRCNT>;
             key-positions = <17 5>;
         };
 
         y6 {
-            bindings = <&none>;
+            bindings = <&kp CARET>;
             key-positions = <18 6>;
         };
 
         y7 {
-            bindings = <&none>;
+            bindings = <&kp AMPS>;
             key-positions = <18 7>;
         };
 
         u8 {
-            bindings = <&none>;
+            bindings = <&kp STAR>;
             key-positions = <8 19>;
         };
 
         i9 {
-            bindings = <&none>;
+            bindings = <&kp LPAR>;
             key-positions = <9 20>;
         };
 
         o0 {
-            bindings = <&none>;
+            bindings = <&kp RPAR>;
             key-positions = <10 21>;
         };
 
         p- {
-            bindings = <&none>;
+            bindings = <&kp MINUS>;
             key-positions = <11 22>;
+        };
+
+        r5 {
+            bindings = <&kp PRCNT>;
+            key-positions = <5 16>;
+        };
+
+        u6 {
+            bindings = <&kp CARET>;
+            key-positions = <6 19>;
+        };
+    };
+
+    macros {
+        win_r: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "NEW_MACRO";
         };
     };
 
